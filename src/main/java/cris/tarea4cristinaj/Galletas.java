@@ -46,6 +46,11 @@ public class Galletas {
     public void setPrecio(double precio) {
         this.precio = precio;
     }
+
+    @Override
+    public String toString() {
+        return "Galletas{" + "sabor=" + sabor + ", radio=" + radio + ", precio=" + precio + '}';
+    }
     
     
     
