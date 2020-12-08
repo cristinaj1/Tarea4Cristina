@@ -22,6 +22,30 @@ public class Galletas {
         this.radio = radio;
         this.precio = precio;
     }
+
+    public String getSabor() {
+        return sabor;
+    }
+
+    public void setSabor(String sabor) {
+        this.sabor = sabor;
+    }
+
+    public int getRadio() {
+        return radio;
+    }
+
+    public void setRadio(int radio) {
+        this.radio = radio;
+    }
+
+    public double getPrecio() {
+        return precio;
+    }
+
+    public void setPrecio(double precio) {
+        this.precio = precio;
+    }
     
     
     
