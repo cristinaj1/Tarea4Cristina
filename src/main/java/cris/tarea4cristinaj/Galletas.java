@@ -13,6 +13,16 @@ public class Galletas {
     public String sabor;
     public int radio;
     public double precio;
+
+    public Galletas() {
+    }
+
+    public Galletas(String sabor, int radio, double precio) {
+        this.sabor = sabor;
+        this.radio = radio;
+        this.precio = precio;
+    }
+    
     
     
 }
